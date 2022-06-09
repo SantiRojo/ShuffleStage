@@ -1,0 +1,57 @@
+[
+    {
+        "artista":"Boris Brejcha",
+        "precio":7200,
+        "img":"./media/img/cards/boris_brejcha.png",
+        "id":1
+    },
+    {
+        "artista":"Solomun",
+        "precio":5300,
+        "img":"./media/img/cards/solomun.jpg",
+        "id":2
+    },
+    {
+        "artista":"Green Velvet",
+        "precio":6700,
+        "img":"./media/img/cards/green_velvet.jpeg",
+        "id":3
+    },
+    {
+        "artista":"Amelie Lens",
+        "precio":4500,
+        "img":"./media/img/cards/amelie_lens.jpg",
+        "id":4
+    },
+    {
+        "artista":"Disclosure",
+        "precio":6250,
+        "img":"./media/img/cards/disclosure.jpg",
+        "id":5
+    },
+    {
+        "artista":"Deborah De Luca",
+        "precio":5000,
+        "img":"./media/img/cards/deborah_de_luca.jpg",
+        "id":6
+    },
+    {
+        "artista":"Maceo Plex",
+        "precio":5600,
+        "img":"./media/img/cards/maceo_plex.jpg",
+        "id":7
+    },
+    {
+        "artista":"Charlotte De Witte",
+        "precio":7100,
+        "img":"./media/img/cards/charlotte_de_witte.jpg",
+        "id":8
+    },
+    {
+        "artista":"Michael Bibi",
+        "precio":6500,
+        "img":"./media/img/cards/michael_bibi.jpg",
+        "id":9
+    }
+   
+]

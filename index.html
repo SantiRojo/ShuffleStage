@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Css Toastify-->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- Css propio -->
+    <link rel="stylesheet" href="main.css">
+
+    <title>Shuffe Stage</title>
+</head>
+<body>
+
+    <header>
+
+        <!-- Modal inicio -->
+        
+        <div id="contenedorModalInicio">
+            <div id="fondoModalInicio">
+    
+            </div>
+            <div id="modalInicio">
+                <p>¡Hola! Antes que nada, cuéntanos quién eres:</p>
+                <input id="inputModalInicio" type="text" placeholder="Ingresa tu nombre">
+            </div>
+    
+        </div>
+
+        <!-- Modal carrito -->
+
+        <div id="contenedorModalCarrito">
+
+            <div id="fondoModalCarrito">
+    
+            </div>
+            <div id="modalCarrito">
+                <div id="encabezadoModalCarrito">
+                    <p>MIS COMPRAS</p>
+                    <button id="botonCerrar"><img src="./media/design/boton_cerrar.png" alt="Cerrar"></button>
+                </div>
+
+                <div id="contenedorGridCarrito">
+
+                    <div id="contenedorDetalleTickets">
+                        <div
+                        id="encabezadoDetalleTickets">
+                        <p>TICKETS</p>
+                        </div>
+
+                        <div id="contenedorTicketsAComprar">
+                            
+                            
+
+                        </div>
+                    </div>
+
+                    <div id="contenedorDetallePrecio">
+                        <div id="encabezadoDetallePrecio">
+                            <p>DETALLE</p>
+                        </div>
+
+                        <div id="contenedorCalculo">
+
+                            <div id="contenedorListaItems">
+                                
+
+                            </div>
+                            <div id="contenedorPrecioTotal">
+                                <p id="total">Total</p>
+                                <p id="precioTotal">$0</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <button id="botonConfirmacionCompra">
+                        <P>Confirmar compra</P>
+                    </button>
+
+                </div>
+            </div>
+    
+        </div>
+
+        <!-- Navbar -->
+
+        <div id="navbar">
+            <div id="logo">
+                <img src="./media/design/Logo/Logo SS Neón.svg" alt="Logo Shuffe Stage">
+            </div>
+            <div id="titulo">
+                <h1>SHUFFLE STAGE</h1>
+            </div>
+            <div id="contenedorBotonCarrito">
+                <button id="botonCarrito">
+
+                    <div id="contadorCarrito"></div>
+
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+
+        <section id="bannerBienvenida">
+
+            <div id="contenedorBienvenida">
+
+                <div id="contMjeBienvenida">
+                    <p id="mensajeBienvenida">¡Te damos la bienvenida<span id="nombreMensajeBienvenida"></span>!</p>
+                </div>
+                <div id="contenedorIlustracionBienvenida">
+                    <img id="ilustracionBienvenida" src="./media/design/Daft Punk - Copy@1-1588x944.png" alt="Robot Dj">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="seccionCarrusel">
+            
+            <div id="contenedorSeccionCarrusel">
+
+                <h2>PRÓXIMOS EVENTOS</h2>
+                
+                <div id="contenedorCarrusel">
+
+                    <div id="carrusel">
+
+                        <div class="contenedorImgCarrusel">
+
+                            <img src="./media/img/carrusel/carrusel_boris_brejcha.png" alt="Boris Brejcha">
+
+                        </div>
+
+                        <div class="contenedorImgCarrusel">
+                        
+                            <img src="./media/img/carrusel/carrusel_deborah_de_luca.png" alt="Deborah de Luca">
+
+                        </div>
+
+                        <div class="contenedorImgCarrusel">
+                        
+                            <img src="./media/img/carrusel/carrusel_green_velvet.png" alt="Green Velvet">
+
+                        </div>
+
+                        <div class="contenedorImgCarrusel">
+                        
+                            <img src="./media/img/carrusel/carrusel_michael_bibi.png" alt="Michael Bibi">
+
+                        </div>
+
+                        <div class="contenedorImgCarrusel">
+                        
+                            <img src="./media/img/carrusel/carrusel_disclosure.png" alt="Disclosure">
+
+                        </div>
+
+                        <div class="contenedorImgCarrusel">
+
+                            <img src="./media/img/carrusel/carrusel_boris_brejcha.png" alt="Boris Brejcha">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="buscador">
+
+            <div id="contenedorBuscador">
+
+                <h3>¿A qué evento te gustaría asistir?</h3>
+
+                <input id="inputBuscador" type="text" placeholder="Buscar evento">
+
+                <div id="contenedorCards">
+                    
+                </div>
+
+                <div id="curvaBuscador">
+                    <img src="./media/design/curva_footer.svg" alt="kjghlkj">
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section></section>
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <p>¿Cómo fue hecho este proyecto?</p>
+            <p>Con 💚 y de <a href="https://santi-rojo.notion.site/ShuffleStage-com-a1429683f1e0484f8422422e64a7601e" target="_blank">ésta</a> manera.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts Sweet Alert -->
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Scripts Toastify -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Scripts propios -->
+
+    <script src="js/modal_usuario.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/carrusel.js"></script> -->
+
+</body>
+</html>
