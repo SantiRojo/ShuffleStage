@@ -20,7 +20,7 @@ let botonesComprar;
 
 let botonesEliminar;
 
-let carrito = JSON.parse(localStorage.getItem("storageCarrito"));
+let carrito = [];
 
 
 class Compra {
@@ -227,6 +227,8 @@ const actualizarCarrito = () => {
     
     if(localStorage.getItem("storageCarrito") == "null" || carrito === "undefined"){
     carrito = [];
+    } else {
+        carrito = JSON.parse(localStorage.getItem("storageCarrito"));
     };
 
     localStorage.setItem("storageCarrito", JSON.stringify(carrito));
