@@ -22,9 +22,9 @@ let botonesEliminar;
 
 let carrito = JSON.parse(localStorage.getItem("storageCarrito"));
 
-if(localStorage.getItem("storageCarrito") === "null" || carrito === "undefined"){
+/*if(localStorage.getItem("storageCarrito") === "null" || carrito === "undefined"){
     carrito = [];
-}
+}*/
 
 
 class Compra {
@@ -227,6 +227,10 @@ const actualizarCarrito = () => {
     contenedorListaItems.innerHTML = "";
 
     totalCompra = 0;
+    
+    if(localStorage.getItem("storageCarrito") === "null" || carrito === "undefined"){
+    carrito = [];
+    };
 
     localStorage.setItem("storageCarrito", JSON.stringify(carrito));
     
