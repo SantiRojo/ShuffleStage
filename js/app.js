@@ -91,7 +91,7 @@ const asignarEventoBotonComprar = () => {
                 actualizarCarrito()
 
             }
-     ));
+     /*))*/;
 
             /*if(yaExiste){
 
