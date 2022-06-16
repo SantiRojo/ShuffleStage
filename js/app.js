@@ -22,7 +22,7 @@ let botonesEliminar;
 
 let carrito = [];
 
-localStorage.setItem("storageCarrito", JSON.stringify(carrito));
+/*localStorage.setItem("storageCarrito", JSON.stringify(carrito));*/
 
 
 class Compra {
@@ -342,7 +342,7 @@ buscador.addEventListener("input", buscar);
 botonConfirmacionCompra.addEventListener("click",confirmarCompra);
 
 
-carrito = JSON.parse(localStorage.getItem("storageCarrito"));
+/*carrito = JSON.parse(localStorage.getItem("storageCarrito"));*/
 
 actualizarCarrito();
 
