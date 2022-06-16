@@ -8,11 +8,9 @@ let nombreUsuario = localStorage.getItem("nombreUsuario");
 
 localStorage.setItem("nombreUsuario", nombreUsuario);
 
-if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefined" || nombreUsuario == ""){
+if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefined" || nombreUsuario == " "){
 
     modalInicio.style.display = "flex";
-    
-    localStorage.removeItem("storageCarrito");
 
 }else if(nombreUsuario != null){
 
@@ -39,6 +37,8 @@ if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefine
         if(result.isDenied){
 
             localStorage.removeItem("nombreUsuario");
+            
+            localStorage.removeItem("storageCarrito");
             
             modalInicio.style.display = "flex";
 
