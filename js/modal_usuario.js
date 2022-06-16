@@ -8,9 +8,11 @@ let nombreUsuario = localStorage.getItem("nombreUsuario");
 
 localStorage.setItem("nombreUsuario", nombreUsuario);
 
-if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefined"){
+if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefined" || nombreUsuario == ""){
 
     modalInicio.style.display = "flex";
+    
+    localStorage.removeItem("storageCarrito");
 
 }else if(nombreUsuario != null){
 
