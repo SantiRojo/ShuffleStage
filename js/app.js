@@ -3,7 +3,6 @@ let buscador = document.getElementById("inputBuscador");
 let contenedorCards = document.getElementById("contenedorCards");
 
 let card = document.getElementsByClassName("card");
-let buscador = document.getElementById("inputBuscador");
 
 let contenedorCards = document.getElementById("contenedorCards");
 
