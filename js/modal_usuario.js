@@ -36,14 +36,8 @@ if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefine
 
         if(result.isDenied){
 
-            localStorage.removeItem("nombreUsuario");
-            
-            localStorage.removeItem("storageCarrito");
-            
-            carrito = [];
-            
-            actualizarCarrito();
-            
+            localStorage.removeItem("nombreUsuario");        
+   
             modalInicio.style.display = "flex";
 
         };
