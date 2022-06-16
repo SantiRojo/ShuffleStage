@@ -16,6 +16,7 @@ body {
     display: none;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 #fondoModalInicio {
@@ -69,6 +70,7 @@ body {
     display: none;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 #fondoModalCarrito {
@@ -341,6 +343,8 @@ header {
 }
 
 #navbar {
+    position: fixed;
+    top:0px;
     margin: 0px;
     border-bottom: solid 2pt #FFD93C;
     padding: 0px 20px;
