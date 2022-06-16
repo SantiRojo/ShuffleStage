@@ -90,37 +90,12 @@ const asignarEventoBotonComprar = () => {
 
                 actualizarCarrito()
 
-            }
-            
-            ;
-
-            /*if(yaExiste){
-
-                Toastify({
-                    text: "Ya añadiste este show a tu carrito",
-                    duration: 2500,
-                    gravity: "bottom",
-                    position: "center",
-                    style: {
-                        background: "#FFD93D",
-                        color:"#000000"
-                    }
-                }).showToast();
-
-                console.log("Ya existe");
-
-            } else {
-
-                carrito.push(compra);
-
-                actualizarCarrito()
-
-            }*/
+            };
 
         });
 
     });
-}
+};
 
 const agregarCardAHTML = (evento) => {
 
