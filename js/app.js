@@ -20,9 +20,11 @@ let botonesComprar;
 
 let botonesEliminar;
 
-let carrito = [];
+let carrito = JSON.parse(localStorage.getItem("storageCarrito"));
 
-localStorage.setItem("storageCarrito", JSON.stringify(carrito));
+if(localStorage.getItem("storageCarrito") == "null" || carrito == "undefined"){
+    carrito = [];
+}
 
 
 class Compra {
@@ -341,8 +343,6 @@ buscador.addEventListener("input", buscar);
 
 botonConfirmacionCompra.addEventListener("click",confirmarCompra);
 
-
-/*carrito = JSON.parse(localStorage.getItem("storageCarrito"));*/
 
 actualizarCarrito();
 
