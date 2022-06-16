@@ -225,11 +225,11 @@ const actualizarCarrito = () => {
 
     totalCompra = 0;
     
-    if(localStorage.getItem("storageCarrito") == "null" || carrito === "undefined"){
+   /* if(localStorage.getItem("storageCarrito") == "null" || carrito === "undefined"){
     carrito = [];
-    } else {
+    }/* else {
         carrito = JSON.parse(localStorage.getItem("storageCarrito"));
-    };
+    }*/;*/
 
     localStorage.setItem("storageCarrito", JSON.stringify(carrito));
     
