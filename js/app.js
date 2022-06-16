@@ -22,7 +22,7 @@ let botonesEliminar;
 
 let carrito = [];
 
-/* localStorage.setItem("storageCarrito", JSON.stringify(carrito)); */
+localStorage.setItem("storageCarrito", JSON.stringify(carrito));
 
 
 class Compra {
