@@ -39,7 +39,7 @@ class Compra {
 
 const obtenerEventos = async () => {
 
-    const responseShows = await fetch("https://my-json-server.typicode.com/santirojo/shufflestageapi");
+    const responseShows = await fetch("https://my-json-server.typicode.com/santirojo/shufflestageapi/shows");
 
     shows = await responseShows.json();
 
