@@ -224,7 +224,7 @@ const actualizarCarrito = () => {
 
     totalCompra = 0;
     
-    if(localStorage.getItem("storageCarrito") === "null" || carrito === "undefined"){
+    if(localStorage.getItem("storageCarrito") == "null" || carrito === "undefined"){
     carrito = [];
     };
 
