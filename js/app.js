@@ -27,9 +27,9 @@ let storageCarrito = localStorage.getItem("storageCarrito");
 
 if(storageCarrito != null){
     
-    storageCarrito.split(",")
+    storageCarrito.split(",");
     
-    carrito.push(storageCarrito);
+    carrito = storageCarrito;
     
 };
 
