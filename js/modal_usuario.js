@@ -42,6 +42,8 @@ if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefine
             
             carrito = [];
             
+            actualizarCarrito();
+            
             modalInicio.style.display = "flex";
 
         };
