@@ -22,10 +22,12 @@ let botonesEliminar;
 
 let carrito = [];
 
-let storageCarrito = localStorage.getItem("storageCarrito").split(",");
+let storageCarrito = localStorage.getItem("storageCarrito");
 
 
 if(storageCarrito != null){
+    
+    storageCarrito.split(",")
     
     carrito.push(storageCarrito);
     
