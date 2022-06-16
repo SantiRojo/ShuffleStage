@@ -66,7 +66,7 @@ const asignarEventoBotonComprar = () => {
 
                 return el.artistaSeleccionado === compra.artistaSeleccionado;
 
-            }
+            })
               //Lo puse aca
                                         
                 if(yaExiste){
