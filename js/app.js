@@ -24,7 +24,7 @@ let carrito = [];
 
 let storageCarrito = localStorage.getItem("storageCarrito");
 
-if(stotageCarrito != null){
+if(storageCarrito != null){
     
     carrito = storageCarrito;
     
