@@ -24,9 +24,12 @@ let carrito = [];
 
 let storageCarrito = localStorage.getItem("storageCarrito");
 
+
 if(storageCarrito != null){
     
-    carrito = storageCarrito;
+    storageCarrito.split(",");
+    
+    carrito.push(storageCarrito);
     
 };
 
@@ -88,8 +91,6 @@ const asignarEventoBotonComprar = () => {
                         color:"#000000"
                     }
                 }).showToast();
-
-                console.log("Ya existe");
 
             } else {
 
