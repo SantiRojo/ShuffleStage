@@ -8,7 +8,7 @@ let nombreUsuario = localStorage.getItem("nombreUsuario");
 
 localStorage.setItem("nombreUsuario", nombreUsuario);
 
-if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefined" || nombreUsuario == " "){
+if(localStorage.getItem("nombreUsuario") == "null" || nombreUsuario == "undefined"){
 
     modalInicio.style.display = "flex";
 
